@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  place: string = "Current Place";
+  dateAndTime: string = "Current Date and Time";
+  climate: string = "Current Climate";
 }
